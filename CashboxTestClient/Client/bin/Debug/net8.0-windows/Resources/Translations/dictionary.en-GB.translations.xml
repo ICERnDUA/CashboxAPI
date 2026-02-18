@@ -1,0 +1,30 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	
+	<data name="lblSettings">
+		<value>Settings</value>
+	</data>
+	<data name="lblStart">
+		<value>Start</value>
+	</data>
+	<data name="lblStop">
+		<value>Stop</value>
+	</data>
+	<data name="lblBack">
+		<value>Back</value>
+	</data>
+	<data name="lblSave">
+		<value>Save</value>
+	</data>
+	<data name="lblHeader">
+		<value>Cashbox live test</value>
+	</data>
+	<data name="lblConnectionSettings">
+		<value>Connection settings</value>
+	</data>
+	<data name="lblPort">
+		<value>Port</value>
+	</data>
+	<data name="lblIp">
+		<value>Ip address</value>
+	</data>
+</root>
+

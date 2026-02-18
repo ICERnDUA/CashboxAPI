@@ -1,0 +1,584 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data name="lblSessionStarted">
+		<value>Начало смены {0} </value>
+	</data>
+	<data name="lblSessionEnded">
+		<value>Конец смены {0} </value>
+	</data>
+	<data name="lblSessionRestored">
+		<value>Востановление смены {0} </value>
+	</data>
+	<data name="lblSessionOvertime">
+		<value>Сверхурочная работа смены {0}</value>
+	</data>
+	<data name="lblCashierAuthStarted">
+		<value>Началась аутентификация кассира</value>
+	</data>
+	<data name="lblCashierAuthDenied">
+		<value>Аутентификация кассира отклонена</value>
+	</data>
+	<data name="lblCashierLoggedIn">
+		<value>Кассир {0} вошел в систему</value>
+	</data>
+	<data name="lblCashierLoggedOut">
+		<value>Кассир {0} вышел из системы</value>
+	</data>
+	<data name="lblAdminAuthStarted">
+		<value>Началась аутентификация администратора</value>
+	</data>
+	<data name="lblAdminAuthDenied">
+		<value>Аутентификация администратора отклонена</value>
+	</data>
+	<data name="lblAdminLoggedIn">
+		<value>Администратор {0} вошел в систему</value>
+	</data>
+	<data name="lblAdminLoggedOut">
+		<value>Администратор {0} вышел из системы</value>
+	</data>
+	<data name="lblMasterAuthStarted">
+		<value>Началась аутентификация хозяйки касс</value>
+	</data>
+	<data name="lblMasterAuthDenied">
+		<value>Аутентификация хозяйки касс отклонена</value>
+	</data>
+	<data name="lblMasterLoggedIn">
+		<value>Хозяйка касс {0} вошела в систему</value>
+	</data>
+	<data name="lblMasterLoggedOut">
+		<value>Хозяйка касс {0} вышла из системы</value>
+	</data>
+	<data name="lblOpenReceipt">
+		<value>Чек {0} открыт</value>
+	</data>
+	<data name="lblCloseReceipt">
+		<value>Чек {0} закрыт</value>
+	</data>
+	<data name="lblOpenReturnReceipt">
+		<value>Открыт чек "Возврат" {0}</value>
+	</data>
+	<data name="lblCloseReturnReceipt">
+		<value>Закрыт чек "Возврат" {0}</value>
+	</data>
+	<data name="lblVoidReceipt">
+		<value>Аннулирование чека {0}</value>
+	</data>
+	<data name="lblOpenExchangeReceipt">
+		<value>Открыт чек "Обмен" {0}</value>	<!--????? Изменение-->
+	</data>
+	<data name="lblCloseExchangeReceipt">
+		<value>Закрыт чек "Обмен" {0}</value>
+	</data>
+	<data name="lblOpenPaymentReceipt">
+		<value>Открыт чек "Выплата" {0}</value>
+	</data>
+	<data name="lblClosePaymentReceipt">
+		<value>Закрыт чек "Выплата" {0}</value>
+	</data>
+	<data name="lblRepaymentReceipt">
+		<value>Чек "Переплата" {0}</value>
+	</data>
+	<data name="lblReceiptClose">
+		<value>Чек {0} закрыт</value>
+	</data>
+	<data name="lblStartCancelReceipt">
+		<value>Начало отмены чека {0}</value>
+	</data>
+	<data name="lblCancelReceiptDenied">
+		<value>Отмена чека {0} отклонена</value>
+	</data>
+	<data name="lblCancelReceipt">
+		<value>Чек {0} отменен</value>
+	</data>
+	<data name="lblDelayedReceipt">
+		<value>Запись отложенного чека {0}</value>
+	</data>
+	<data name="lblDelayedReceiptRequest">
+		<value>Запрос отложенного чека {0}</value>
+	</data>
+	<data name="lblReceiptRestore">
+		<value>Восстановление чека {0} </value>
+	</data>
+	<data name="lblSoftReceipt">
+		<value>Копия чека {0}</value>
+	</data>
+	<data name="lblMobileReceipt">
+		<value>Мобильный чек {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCash">
+		<value>Итог за наличным расчетом: {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCashless">
+		<value>Итог за безналичным расчетом: {0}</value>
+	</data>
+	<data name="lblStartReceiptSummarySlip">
+		<value>Попытка подсчета по слипу</value> <!--фискальному чеку-->
+	</data>
+	<data name="lblReceiptSummarySlipDenied">
+		<value>Подсчета по слипу отклонен</value>
+	</data>
+	<data name="lblReceiptSummarySlip">
+		<value>Итог по слипу: {0}</value>
+	</data>
+	<data name="lblReceiptSummary">
+		<value>Сумма чека: {0}</value>
+	</data>
+	<data name="lblUnknownReceiptSummary">
+		<value>Сумма чека {0} неизвестная</value>
+	</data>
+	<data name="lblNullReceiptSummary">
+		<value>Нулевой чек {0}</value>
+	</data>
+	<data name="lblReceiptChange">
+		<value>Сдача по чеку: {0}</value>
+	</data>
+	<data name="lblReceiptPromoDiscount">
+		<value>Применение промо-скидки к чеку</value>
+	</data>
+	<data name="lblReceiptRoundingDiscount">
+		<value>Применение скидки округления к чеку</value>
+	</data>
+	<data name="lblReceiptLoyaltyDiscount">
+		<value>Применение скидки программы лояльности к чеку</value>
+	</data>
+	<data name="lblReceiptDiscount">
+		<value>Применение скидки к чеку</value>
+	</data>
+	<data name="lblReceiptCancelDiscount">
+		<value>Отмена скидки в чеке</value>
+	</data>
+	<data name="lblItemAdded">
+		<value>Добавление товара в чек **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByArticle">
+		<value>Добавление товара по артикулу **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByBarcode">
+		<value>Добавление товара по штрихкоду **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByScanner">
+		<value>Добавление товара сканером **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByList">
+		<value>Добавление товара со списка **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByPrice">
+		<value>Добавление товара по цене  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemNotFoundByArticle">
+		<value>Товар не найден по артикулу {0}</value>
+	</data>
+	<data name="lblItemNotFoundByBarcode">
+		<value>Товар не найден по штрихкоду {0}</value>
+	</data>
+	<data name="lblItemNotFoundByPrice">
+		<value>Товар не найден по цене {0}</value>
+	</data>
+	<data name="lblReceiptlessItemScanned">
+		<value>Добавлен товар вне чека  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblForbiddenItemAdded">
+		<value>Добавлен запрещенный товар **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblPresentAdded">
+		<value>Подарок {0} в чек добавлен</value>
+	</data>
+	<data name="lblItemQuantityAddedManually">
+		<value>Количество товара добавленно вручную **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemChanged">
+		<value>Изменение товара **{0} **{1} / {2} **{3} {2} **{4}</value> <!-- позиции??????????-->
+	</data>
+	<data name="lblStartItemQuantityReduce">
+		<value>Начато снижение количества товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduceDenied">
+		<value>В снижении количества товара отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduce">
+		<value>Снижено количество товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemQuantityIncrease">
+		<value>Начато увеличения количества товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncreaseDenied">
+		<value>В увеличении количества товара отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncrease">
+		<value>Увеличено количество товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceReduce">
+		<value>Начато снижение цены **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduceDenied">
+		<value>В снижении цены отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduced">
+		<value>Снижено цену товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceIncrease">
+		<value>Начато увеличения цены товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreaseDenied">
+		<value>В увеличении цены товара отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreased">
+		<value>Увиличено цену товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemCancel">
+		<value>Начало отмены товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCancelDenied">
+		<value>В отмене товара отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCanceled">
+		<value>Отмена товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemRemove">
+		<value>Начало удаления товара **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemoveDenied">
+		<value>В удалении товара отказано **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemove">
+		<value>Товар удален **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemDiscount">
+		<value>Начато назначение скидки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountDenied">
+		<value>В назначении скидки на товар отказано **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscount">
+		<value>Выбор значения скидки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountSet">
+		<value>Назначение скидки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountCanceled">
+		<value>Отмена скидки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblCreditCardPayment">
+		<value>Оплата кредитной картой на сумму {0}</value>
+	</data>
+	<data name="lblCreditCardPaymentFailed">
+		<value>Оплата кредитной картой на сумму {0} отклонена по причине {1}</value>
+	</data>
+	<data name="lblInsiderCardPayment">
+		<value>Оплата внутренней картой на сумму {0}</value>
+	</data>
+	<data name="lblInsiderCardPaymentFailed">
+		<value>Оплата внутренней картой на сумму {0} отклонена по причине {1}</value>
+	</data>
+	<data name="lblDiscountCardPayment">
+		<value>Оплата дисконтной картой на сумму {0}</value>
+	</data>
+	<data name="lblDiscountCardPaymentFailed">
+		<value>Оплата дисконтной картой на сумму {0} отклонена по причине {1}</value>
+	</data>
+	<data name="lblDiscountCardNotFound">
+		<value>Дисконтная карта не найдена</value>
+	</data>
+	<data name="lblCouponPayment">
+		<value>Оплата купоном на сумму {0}</value>
+	</data>
+	<data name="lblCouponPaymentDenied">
+		<value>Оплата купоном на сумму {0} отклонена по причине {1}</value>
+	</data>
+	<data name="lblDocumentPayment">
+		<value>Продажа по документу на сумму {0}</value>
+	</data>
+	<data name="lblStartBonusCardPayment">
+		<value>Попытка оплаты бонусной картой на сумму {0}</value>
+	</data>
+	<data name="lblBonusCardPaymentDenied">
+		<value>Оплата бонусной картой на сумму {0} отклонена по причине {1}</value>
+	</data>
+	<data name="lblStartBonusCardPayment">
+		<value>Оплата бонусной картой на сумму {0} успешна</value>
+	</data>
+	<data name="lblCertificatePayment">
+		<value>Оплата сертификатом на сумму {0}</value>
+	</data>
+	<data name="lblCashPayment">
+		<value>Оплата наличными на сумму {0}. Сдача: {1}</value>
+	</data>
+	<data name="lblCashlessPayment">
+		<value>Оплата безналичными на сумму {0}</value>
+	</data>
+	<data name="lblPaymentCanceled">
+		<value>Оплата отклонена по причине {0}</value>
+	</data>
+	<data name="lblCardWaiting">
+		<value>Ожидание карты</value>
+	</data>
+	<data name="lblCardNumber">
+		<value>Получен номер карты</value>
+	</data>
+	<data name="lblStartPrintMode">
+		<value>Вход в режим печати чеков</value>
+	</data>
+	<data name="lblExitPrintMode">
+		<value>Выход с режима печати чеков</value>
+	</data>
+	<data name="lblStartCashMemoPrintMode">
+		<value>Вход в режим печати товарных чеков</value>
+	</data>
+	<data name="lblExitCashMemoPrintMode">
+		<value>Выход с режима печати товарных чеков</value>
+	</data>
+	<data name="lblStartSaleMode">
+		<value>Вход в режим "Продаж"</value>
+	</data>
+	<data name="lblExitSaleMode">
+		<value>Выход с режима "Продаж"</value>
+	</data>
+	<data name="lblStartReturnMode">
+		<value>Вход в режим "Возврат"</value>
+	</data>
+	<data name="lblExitReturnMode">
+		<value>Выход с режима "Возврат"</value>
+	</data>
+	<data name="lblStartServicePaymentMode">
+		<value>Вход в режим "Оплата услуг"</value>
+	</data>
+	<data name="lblExitServicePaymentMode">
+		<value>Выход с режима "Оплата услуг"</value>
+	</data>
+	<data name="lblStartCalculatorMode">
+		<value>Вход в режим "Калькулятор"</value>
+	</data>
+	<data name="lblExitCalculatorMode">
+		<value>Выход с режима "Калькулятор"</value>
+	</data>
+	<data name="lblStartItemInfoMode">
+		<value>Вход в режим "Информация про товар"</value>
+	</data>
+	<data name="lblExitItemInfoMode">
+		<value>Выход с режима "Информация про товар"</value>
+	</data>
+	<data name="lblReceiptPrint">
+		<value>Печать чека {0}</value>
+	</data>
+	<data name="lblReceiptPrintCashMemo">
+		<value>Печать товарного чека {0} с режима "Касир" </value>
+	</data>
+	<data name="lblReceiptPrintCopy">
+		<value>Печать копии чека {0}</value>
+	</data>
+	<data name="lblAdminReceiptPrintCopy">
+		<value>Печать копии чека {0} с режима "Администратор"</value>
+	</data>
+	<data name="lblPrintSlip">
+		<value>Печать слипа {0}</value>
+	</data>
+	<data name="lblPrintSlipCopy">
+		<value>Печать копии слипа {0}</value>
+	</data>
+	<data name="lblCashboxOpened">
+		<value>Открыт денежный ящик при расчете</value>
+	</data>
+	<data name="lblCashboxOpenedForced">
+		<value>Открыт денежный ящик при нажатии на кнопку</value>
+	</data>
+	<data name="lblCashboxDeposition">
+		<value>Внесение {0} в денежный ящик касиром </value>
+	</data>
+	<data name="lblCashboxDepositionFinished">
+		<value>Внесение в денежный ящик завершено </value>
+	</data>
+	<data name="lblCashboxWithdrawal">
+		<value>Изъятие {0} с денежного ящика </value>
+	</data>
+	<data name="lblCashboxWithdrawalFinished">
+		<value>Изъятие с денежного ящика завершено</value>
+	</data>
+	<data name="lblMasterCashboxOpened">
+		<value>Открыто денежный ящик в режима "Хозяйка касс"</value>
+	</data>
+	<data name="lblMasterCashboxDeposition">
+		<value>Внесение {0} в денежный ящик в режиме "Хозяйка касс"</value>
+	</data>
+	<data name="lblMasterCashboxDepositionFinished">
+		<value>Внесение в денежный ящик в режиме "Хозяйка касс" завершено</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawal">
+		<value>Изъятие {0} с денежного ящика в режиме "Хозяйка касс"</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawalFinished">
+		<value>Изъятие с денежного ящика в режиме "Хозяйка касс" завершено</value>
+	</data>
+	<data name="lblCashboxDeclaration">
+		<value>Декларация денежного ящика</value>
+	</data>
+	<data name="lblBonusCardBalanceRequest">
+		<value>Запрос баланса по бонусной карте. Общий баланс: {0}</value>
+	</data>
+	<data name="lblBonusCardActivated">
+		<value>Активация бонустной карты</value>
+	</data>
+	<data name="lblBonusCardDeposit">
+		<value>Внесение {0} на депозит бонусной карты. Общий баланс: {1}</value>
+	</data>
+	<data name="lblBonusCardBonusesAdded">
+		<value>Зачисление {0} бонусов на бонусную карту. Общий баланс: {1}</value>
+	</data>
+	<data name="lblBonusCardTerminated">
+		<value>Аннулирование бонусной карты</value>
+	</data>
+	<data name="lblBonusCardDetailedBalance">
+		<value>Детальный баланс бонусной карты: {0}</value>
+	</data>
+	<data name="lblCertificateSell">
+		<value>Продажа сертификата {0}</value>
+	</data>
+	<data name="lblCertificateUsed">
+		<value>Сертификат {0} использован</value>
+	</data>
+	<data name="lblCertificateTerminated">
+		<value>Сертификат {0} аннулирован</value>
+	</data>
+	<data name="lblTerminalStarted">
+		<value>Запуск</value>
+	</data>
+	<data name="lblTerminalShutdown">
+		<value>Остановка</value>
+	</data>
+	<data name="lblTerminalRestart">
+		<value>Перезагрузка</value>
+	</data>
+	<data name="lblTerminalFMDCreate">
+		<value>Создание ЕКЛ</value>
+	</data>
+	<data name="lblTerminalFMDWrite">
+		<value>Запись ЕКЛ</value>
+	</data>
+	<data name="lblTerminalFMDView">
+		<value>Просмотр ЕКЛ</value>
+	</data>
+	<data name="lblTerminalFMDPrint">
+		<value>Печать ЕКЛ</value>
+	</data>
+	<data name="lblTerminalViewSettings">
+		<value>Просмотр настроек кассы</value>
+	</data>
+	<data name="lblTerminalViewSales">
+		<value>Просмотр данных о продажах</value>
+	</data>
+	<data name="lblTerminalKeepAlive">
+		<value>Контроль кассы</value>
+	</data>
+	<data name="lblTerminalResetDb">
+		<value>Обслуживание базы данных</value>
+	</data>
+	<data name="lblTerminalAbout">
+		<value>Информация о системе</value>
+	</data>
+	<data name="lblPrintDailyReport">
+		<value>Печать дневного сведения</value>
+	</data>
+	<data name="lblPrintReportBySections">
+		<value>Печать отчета по секциям</value>
+	</data>
+	<data name="lblPrintXReport">
+		<value>Печать X отчета</value>
+	</data>
+	<data name="lblPrintZReport">
+		<value>Печать Z отчета</value>
+	</data>
+	<data name="lblPrintZReportCopy">
+		<value>Печать копии Z отчета</value>
+	</data>
+	<data name="lblPrintFRReport">
+		<value>Печать фискального отчета</value>
+	</data>
+	<data name="lblPrintReportByCashiers">
+		<value>Печать отчета по кассирам</value>
+	</data>
+	<data name="lblPrintReportByItems">
+		<value>Печать отчета по видам товаров</value>
+	</data>
+	<data name="lblPrintReportByTime">
+		<value>Печать отчета по времени</value>
+	</data>
+	<data name="lblPrintReportByHours">
+		<value>Печать почасового отчета</value>
+	</data>
+	<data name="lblPrintReportByCashless">
+		<value>Печать отчета по безналичным расчетам</value>
+	</data>
+	<data name="lblPrintReportByGrowingResults">
+		<value>Печать отчета по нарастающим итогам</value>
+	</data>
+	<data name="lblPrintReportByBankOperations">
+		<value>Печать журнала операций по банку</value>
+	</data>
+	<data name="lblPrintReportByShifts">
+		<value>Печать отчета по сменам</value>
+	</data>
+	<data name="lblPrintWriteOffActs">
+		<value>Печать актов списания суммы</value>
+	</data>
+	<data name="lblComment">
+		<value>Комментарий</value>
+	</data>
+	<data name="lblCashierActivity">
+		<value>Активность оператора</value>
+	</data>
+	<data name="lblSctiptError">
+		<value>Ошибка скрипта</value>
+	</data>
+	<data name="lblError">
+		<value>Ошибка</value>
+	</data>
+	<data name="lblPrintError">
+		<value>Ошибка принтера</value>
+	</data>
+	<data name="lblTransactionError">
+		<value>Ошибка транзакции</value>
+	</data>
+	<data name="lblNaNError">
+		<value>Ошибка указано не число</value>
+	</data>
+	<data name="lblOverflowError">
+		<value>Указано слишком большое число</value>
+	</data>
+	<data name="lblCheckBankResults">
+		<value>Сверка итогов с банком</value>
+	</data>
+	<data name="lblCheckBankFinalResults">
+		<value>Запрос итогов за день по банку</value>
+	</data>
+	<data name="lblCloseBankDay">
+		<value>Закрытие банкового дня</value>
+	</data>
+	<data name="lblTotalItemDiscount">
+		<value>Товар с позицией в чеке {0} получил скидку(и). Цена {1}, суммарная скидка {2}, в итоге {3}</value>
+	</data>
+	<data name="lblSettings">
+		<value>Настройки</value>
+	</data>
+	<data name="lblStart">
+		<value>Старт</value>
+	</data>
+	<data name="lblStop">
+		<value>Стоп</value>
+	</data>
+	<data name="lblBack">
+		<value>Назад</value>
+	</data>
+	<data name="lblSave">
+		<value>Сохранить</value>
+	</data>
+	<data name="lblHeader">
+		<value>Cashbox live test</value>
+	</data>
+	<data name="lblConnectionSettings">
+		<value>Настройки подключения</value>
+	</data>
+	<data name="lblPort">
+		<value>Порт</value>
+	</data>
+	<data name="lblIp">
+		<value>IP адрес</value>
+	</data>
+</root>

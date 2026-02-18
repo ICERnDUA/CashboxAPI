@@ -1,0 +1,563 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data name="lblSessionStarted">
+		<value>Початок зміни {0} </value>
+	</data>
+	<data name="lblSessionEnded">
+		<value>Кінець зміни {0} </value>
+	</data>
+	<data name="lblSessionRestored">
+		<value>Відновлення зміни {0} </value>
+	</data>
+	<data name="lblSessionOvertime">
+		<value>Понаднормова робота зміни {0}</value>
+	</data>
+	<data name="lblCashierAuthStarted">
+		<value>Почалася аутентифікація касира</value>
+	</data>
+	<data name="lblCashierAuthDenied">
+		<value>Аутентифікація касира відхилена</value>
+	</data>
+	<data name="lblCashierLoggedIn">
+		<value>Касир {0} увійшов до системи</value>
+	</data>
+	<data name="lblCashierLoggedOut">
+		<value>Касир {0} вийшов із системи</value>
+	</data>
+	<data name="lblAdminAuthStarted">
+		<value>Почалася аутентифікація адміністратора</value>
+	</data>
+	<data name="lblAdminAuthDenied">
+		<value>Аутентифікація адміністратора відхилена</value>
+	</data>
+	<data name="lblAdminLoggedIn">
+		<value>Адміністратор {0} увійшов до системи</value>
+	</data>
+	<data name="lblAdminLoggedOut">
+		<value>Адміністратор {0} вийшов із системи</value>
+	</data>
+	<data name="lblMasterAuthStarted">
+		<value>Почалася аутентифікація господарки кас</value>
+	</data>
+	<data name="lblMasterAuthDenied">
+		<value>Аутентифікація господарки кас відхилена</value>
+	</data>
+	<data name="lblMasterLoggedIn">
+		<value>Господарка кас {0} увійшла до системи</value>
+	</data>
+	<data name="lblMasterLoggedOut">
+		<value>Господарка кас {0} вийшла з системи</value>
+	</data>
+	<data name="lblOpenReceipt">
+		<value>Чек {0} відкритий</value>
+	</data>
+	<data name="lblCloseReceipt">
+		<value>Чек {0} закритий</value>
+	</data>
+	<data name="lblOpenReturnReceipt">
+		<value>Відкрито чек "Повернення" {0}</value>
+	</data>
+	<data name="lblCloseReturnReceipt">
+		<value>Закрито чек "Повернення" {0}</value>
+	</data>
+	<data name="lblVoidReceipt">
+		<value>Анулювання чеку {0}</value>
+	</data>
+	<data name="lblOpenExchangeReceipt">
+		<value>Відкрито чек "Обмін" {0}</value>
+	</data>
+	<data name="lblCloseExchangeReceipt">
+		<value>Закрито чек "Обмін" {0}</value>
+	</data>
+	<data name="lblOpenPaymentReceipt">
+		<value>Відкрито чек "Виплата" {0}</value>
+	</data>
+	<data name="lblClosePaymentReceipt">
+		<value>Закрито чек "Виплата" {0}</value>
+	</data>
+	<data name="lblRepaymentReceipt">
+		<value>Чек "Переплата" {0}</value>
+	</data>
+	<data name="lblReceiptClose">
+		<value>Чек {0} закритий</value>
+	</data>
+	<data name="lblStartCancelReceipt">
+		<value>Початок анулювання чека {0}</value>
+	</data>
+	<data name="lblCancelReceiptDenied">
+		<value>Анулювання чека {0} відхилено</value>
+	</data>
+	<data name="lblCancelReceipt">
+		<value>Чек {0} анулюванно</value>
+	</data>
+	<data name="lblDelayedReceipt">
+		<value>Запис відкладеного чека {0}</value>
+	</data>
+	<data name="lblDelayedReceiptRequest">
+		<value>Запит відкладеного чека {0}</value>
+	</data>
+	<data name="lblReceiptRestore">
+		<value>Відновлення чека {0} </value>
+	</data>
+	<data name="lblSoftReceipt">
+		<value>Копія чека {0}</value>
+	</data>
+	<data name="lblMobileReceipt">
+		<value>Мобільний чек {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCash">
+		<value>Підсумок за готівковим розрахунком: {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCashless">
+		<value>Підсумок з безготівкового розрахунку: {0}</value>
+	</data>
+	<data name="lblStartReceiptSummarySlip">
+		<value>Спроба підсумку по сліпу </value>
+	</data>
+	<data name="lblReceiptSummarySlipDenied">
+		<value>Відмова у підсумку по сліпу</value>
+	</data>
+	<data name="lblReceiptSummarySlip">
+		<value>Підсумок по сліпу: {0}</value>
+	</data>
+	<data name="lblReceiptSummary">
+		<value>Сума чека: {0}</value>
+	</data>
+	<data name="lblUnknownReceiptSummary">
+		<value>Сума за чеком {0} невідома</value>
+	</data>
+	<data name="lblNullReceiptSummary">
+		<value>Нульовий чек {0}</value>
+	</data>
+	<data name="lblReceiptChange">
+		<value>Здача по чеку: {0}</value>
+	</data>
+	<data name="lblReceiptPromoDiscount">
+		<value>Застосування промо-знижки до чеку</value>
+	</data>
+	<data name="lblReceiptRoundingDiscount">
+		<value>Застосування знижки заокруглення до чеку</value>
+	</data>
+	<data name="lblReceiptLoyaltyDiscount">
+		<value>Застосування знижки програми лояльності до чеку</value>
+	</data>
+	<data name="lblReceiptDiscount">
+		<value>Застосування знижки за чеком</value>
+	</data>
+	<data name="lblReceiptCancelDiscount">
+		<value>Скасування знижки у чеку</value>
+	</data>
+	<data name="lblItemAdded">
+		<value>Додано товар в чек **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByArticle">
+		<value>Додано товар за артикулом **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByBarcode">
+		<value>Додано товар по штрихкоду **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByScanner">
+		<value>Додано товар сканером **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByList">
+		<value>Додано товар зі списку **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByPrice">
+		<value>Додано товар за ціною  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemNotFoundByArticle">
+		<value>Не знайдено товар за артикулом {0} в чеку {1}</value>
+	</data>
+	<data name="lblItemNotFoundByBarcode">
+		<value>Не знайдено товар за штрихкодом {0} в чеку {1}</value>
+	</data>
+	<data name="lblItemNotFoundByPrice">
+		<value>Не знайдено товару за ціною {0} в чеку {1}</value>
+	</data>
+	<data name="lblReceiptlessItemScanned">
+		<value>Додано товар поза чеком  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblForbiddenItemAdded">
+		<value>Додано заборонений товар **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblPresentAdded">
+		<value>Додано подарунок {0} в чек</value>
+	</data>
+	<data name="lblItemQuantityAddedManually">
+		<value>Введення кількості товару касиром вручну **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemChanged">
+		<value>Зміна товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemQuantityReduce">
+		<value>Спроба зменшення кількості товару  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduceDenied">
+		<value>Відмова у зменшенні кількості товару  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduce">
+		<value>Зменшення кількості товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemQuantityIncrease">
+		<value>Спроба збільшення кількості товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncreaseDenied">
+		<value>Відмова у збільшенні кількості товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncrease">
+		<value>Збільшення кількості товару  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceReduce">
+		<value>Спроба зменшення ціни товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduceDenied">
+		<value>Відмова у зменшенні ціни товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduced">
+		<value>Зменшення ціни товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceIncrease">
+		<value>Спроба збільшення ціни товару **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreaseDenied">
+		<value>Відмова у збільшенні ціни товару  **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreased">
+		<value>Збільшення ціни товару із чека **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemCancel">
+		<value>Спроба скасування товару в чеку **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCancelDenied">
+		<value>Відмова у скасуванні товару в чеку **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCanceled">
+		<value>Скасування товару в чеку **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemRemove">
+		<value>Спроба видалення товару із чека **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemoveDenied">
+		<value>Відмова у видаленні товару з чека **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemove">
+		<value>Видалення товару з чека **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemDiscount">
+		<value>Спроба призначення знижки на товар  **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountDenied">
+		<value>Відмова у встановленні знижки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscount">
+		<value>Вибір значення знижки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountSet">
+		<value>Призначення знижки на товар **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountCanceled">
+		<value>Скасування знижки на товар  **{0} **{1} / {2} **{3} {2} **{4} **Скидка {5}: {6} </value>
+	</data>
+	<data name="lblCreditCardPayment">
+		<value>Продаж за кредитною карткою на суму {0}</value>
+	</data>
+	<data name="lblCreditCardPaymentFailed">
+		<value>Оплата кредитною карткою на суму {0} відхилена через {1}</value>
+	</data>
+	<data name="lblInsiderCardPayment">
+		<value>Оплата внутрішньою карткою на суму {0}</value>
+	</data>
+	<data name="lblInsiderCardPaymentFailed">
+		<value>Оплата внутрішньою карткою на суму {0} відхилена через {1}</value>
+	</data>
+	<data name="lblDiscountCardPayment">
+		<value>Оплата дисконтною карткою на суму {0}</value>
+	</data>
+	<data name="lblDiscountCardPaymentFailed">
+		<value>Оплата дисконтною карткою на суму  {0} відхилена через {1}</value>
+	</data>
+	<data name="lblDiscountCardNotFound">
+		<value>Дисконтну карту не знайдено</value>
+	</data>
+	<data name="lblCouponPayment">
+		<value>Оплата купоном на суму {0}</value>
+	</data>
+	<data name="lblCouponPaymentDenied">
+		<value>Оплата купоном на суму {0} відхилена через {1}</value>
+	</data>
+	<data name="lblDocumentPayment">
+		<value>Продаж за документом на суму {0}</value>
+	</data>
+	<data name="lblStartBonusCardPayment">
+		<value>Оплати бонусною карткою на суму {0}</value>
+	</data>
+	<data name="lblBonusCardPaymentDenied">
+		<value>Оплата бонусною карткою на суму {0} відхилена через {1}</value>
+	</data>
+	<data name="lblStartBonusCardPayment">
+		<value>Оплата бонусною карткою на суму {0} успішна</value>
+	</data>
+	<data name="lblCertificatePayment">
+		<value>Оплата сертифікатом на суму {0}</value>
+	</data>
+	<data name="lblCashPayment">
+		<value>Оплата готівкою на суму {0}. Решта: {1}</value>
+	</data>
+	<data name="lblCashlessPayment">
+		<value>Оплата безготівковими на суму {0}</value>
+	</data>
+	<data name="lblPaymentCanceled">
+		<value>Оплата відхилена через {0}</value>
+	</data>
+	<data name="lblCardWaiting">
+		<value>Очікування карти</value>
+	</data>
+	<data name="lblCardNumber">
+		<value>Отримано номер картки </value>
+	</data>
+	<data name="lblStartPrintMode">
+		<value>Вхід в режим друку чеків</value>
+	</data>
+	<data name="lblExitPrintMode">
+		<value>Вихід із режиму друку чеків</value>
+	</data>
+	<data name="lblStartCashMemoPrintMode">
+		<value>Вхід в режим друку товарних чеків </value>
+	</data>
+	<data name="lblExitCashMemoPrintMode">
+		<value>Вихід із режиму друку товарних чеків</value>
+	</data>
+	<data name="lblStartSaleMode">
+		<value>Вхід у режим "Продаж"</value>
+	</data>
+	<data name="lblExitSaleMode">
+		<value>Вихід із режиму "Продаж"</value>
+	</data>
+	<data name="lblStartReturnMode">
+		<value>Вхід у режим "Повернення"</value>
+	</data>
+	<data name="lblExitReturnMode">
+		<value>Вихід із режиму "Повернення"</value>
+	</data>
+	<data name="lblStartServicePaymentMode">
+		<value>Вхід у режим "Оплата послуг"</value>
+	</data>
+	<data name="lblExitServicePaymentMode">
+		<value>Вихід із режиму "Оплата послуг"</value>
+	</data>
+	<data name="lblStartCalculatorMode">
+		<value>Вхід у режим "Калькулятор"</value>
+	</data>
+	<data name="lblExitCalculatorMode">
+		<value>Вихід із режиму "Калькулятор"</value>
+	</data>
+	<data name="lblStartItemInfoMode">
+		<value>Вхід у режим "Інформація про товар"</value>
+	</data>
+	<data name="lblExitItemInfoMode">
+		<value>Вихід із режиму "Інформація про товар"</value>
+	</data>
+	<data name="lblReceiptPrint">
+		<value>Друк чека {0}</value>
+	</data>
+	<data name="lblReceiptPrintCashMemo">
+		<value>Друк товарного чека {0} з режиму "Касир"</value>
+	</data>
+	<data name="lblReceiptPrintCopy">
+		<value>Друк копії чека {0}</value>
+	</data>
+	<data name="lblAdminReceiptPrintCopy">
+		<value>Друк копії {0} з режиму "АДМІНІСТРАТОР"</value>
+	</data>
+	<data name="lblPrintSlip">
+		<value>Друк сліпу {0}</value>
+	</data>
+	<data name="lblPrintSlipCopy">
+		<value>Друк копії сліпу {0}</value>
+	</data>
+	<data name="lblCashboxOpened">
+		<value>Відкрито касову скриньку при розрахунку</value>
+	</data>
+	<data name="lblCashboxOpenedForced">
+		<value>Відкрито касову скриньку за кнопкою</value>
+	</data>
+	<data name="lblCashboxDeposition">
+		<value>Внесення {0} до каси касиром</value>
+	</data>
+	<data name="lblCashboxDepositionFinished">
+		<value>Внесення грошей до каси завершено</value>
+	</data>
+	<data name="lblCashboxWithdrawal">
+		<value>Вилучення {0} із каси </value>
+	</data>
+	<data name="lblCashboxWithdrawalFinished">
+		<value>Вилучення закінчено</value>
+	</data>
+	<data name="lblMasterCashboxOpened">
+		<value>Відкрито касову скриньку з режиму "Господиня кас"</value>
+	</data>
+	<data name="lblMasterCashboxDeposition">
+		<value>Внесення {0} до каси з режиму "Господиня кас"</value>
+	</data>
+	<data name="lblMasterCashboxDepositionFinished">
+		<value>Внесення грошей до каси з режиму "Господиня кас" завершено</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawal">
+		<value>Вилучення {0} з каси в режимі "Господиня кас"</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawalFinished">
+		<value>Вилучення грошей з каси в режимі "Господиня кас" завершено</value>
+	</data>
+	<data name="lblCashboxDeclaration">
+		<value>Декларація грошової скриньки</value>
+	</data>
+	<data name="lblBonusCardBalanceRequest">
+		<value>Запит балансу бонусної карти. Загальний баланс: {0}</value>
+	</data>
+	<data name="lblBonusCardActivated">
+		<value>Активація бонусної картки</value>
+	</data>
+	<data name="lblBonusCardDeposit">
+		<value>Внесення {0} на депозит бонусної картки. Загальний баланс: {1}</value>
+	</data>
+	<data name="lblBonusCardBonusesAdded">
+		<value>Зарахування {0} бонусів на бонусну картку. Загальна баланс: {1}</value>
+	</data>
+	<data name="lblBonusCardTerminated">
+		<value>Анулювання бонусної картки</value>
+	</data>
+	<data name="lblBonusCardDetailedBalance">
+		<value>Детальний баланс бонусної карти: {0}</value>
+	</data>
+	<data name="lblCertificateSell">
+		<value>Продаж сертифіката {0}</value>
+	</data>
+	<data name="lblCertificateUsed">
+		<value>Використання сертифіката {0}</value>
+	</data>
+	<data name="lblCertificateTerminated">
+		<value>Анульовання сертифікату {0}</value>
+	</data>
+	<data name="lblTerminalStarted">
+		<value>Запуск</value>
+	</data>
+	<data name="lblTerminalShutdown">
+		<value>Зупинка</value>
+	</data>
+	<data name="lblTerminalRestart">
+		<value>Перезавантаження</value>
+	</data>
+	<data name="lblTerminalFMDCreate">
+		<value>Створення ЕКЛ</value>
+	</data>
+	<data name="lblTerminalFMDWrite">
+		<value>Запис ЕКЛ </value>
+	</data>
+	<data name="lblTerminalFMDView">
+		<value>Перегляд ЕКЛ</value>
+	</data>
+	<data name="lblTerminalFMDPrint">
+		<value>Друк ЕКЛ</value>
+	</data>
+	<data name="lblTerminalViewSettings">
+		<value>Перегляд налаштувань каси</value>
+	</data>
+	<data name="lblTerminalViewSales">
+		<value>Перевірка даних про продаж</value>
+	</data>
+	<data name="lblTerminalKeepAlive">
+		<value>Контроль каси</value>
+	</data>
+	<data name="lblTerminalResetDb">
+		<value>Обслуговування бази даних</value>
+	</data>
+	<data name="lblTerminalAbout">
+		<value>Інформація про систему</value>
+	</data>
+	<data name="lblPrintDailyReport">
+		<value>Друк денного звіту</value>
+	</data>
+	<data name="lblPrintReportBySections">
+		<value>Друк звіту з секцій </value>
+	</data>
+	<data name="lblPrintXReport">
+		<value>Друк X-звіту</value>
+	</data>
+	<data name="lblPrintZReport">
+		<value>Друк Z-звіту </value>
+	</data>
+	<data name="lblPrintZReportCopy">
+		<value>Друк копії Z-звіту</value>
+	</data>
+	<data name="lblPrintFRReport">
+		<value>Друк ФР-звіту</value>
+	</data>
+	<data name="lblPrintReportByCashiers">
+		<value>Друк звіту за касирами</value>
+	</data>
+	<data name="lblPrintReportByItems">
+		<value>Друк звіту за видами товарів</value>
+	</data>
+	<data name="lblPrintReportByTime">
+		<value>Друк звіту за часом</value>
+	</data>
+	<data name="lblPrintReportByHours">
+		<value>Друк погодинного звіту</value>
+	</data>
+	<data name="lblPrintReportByCashless">
+		<value>Друк звіту за безготівковими розрахунками</value>
+	</data>
+	<data name="lblPrintReportByGrowingResults">
+		<value>Друк звіту за наростаючими підсумками </value>
+	</data>
+	<data name="lblPrintReportByBankOperations">
+		<value>Друк журналу операцій з банку</value>
+	</data>
+	<data name="lblPrintReportByShifts">
+		<value>Друк звіту за змінами</value>
+	</data>
+	<data name="lblPrintWriteOffActs">
+		<value>Друк актів списання сум</value>
+	</data>
+	<data name="lblComment">
+		<value>Коментар</value>
+	</data>
+	<data name="lblCashierActivity">
+		<value>Активність оператора</value>
+	</data>
+	<data name="lblSctiptError">
+		<value>Помилка скрипта</value>
+	</data>
+	<data name="lblError">
+		<value>Помилка</value>
+	</data>
+	<data name="lblPrintError">
+		<value>Помилка принтера</value>
+	</data>
+	<data name="lblTransactionError">
+		<value>Помилка транзакції</value>
+	</data>
+	<data name="lblNaNError">
+		<value>Помилка вказано не число </value>
+	</data>
+	<data name="lblOverflowError">
+		<value>Вказано велике число</value>
+	</data>
+	<data name="lblCheckBankResults">
+		<value>Звірення підсумків із банком</value>
+	</data>
+	<data name="lblCheckBankFinalResults">
+		<value>Запит підсумків за день по банку</value>
+	</data>
+	<data name="lblCloseBankDay">
+		<value>Закриття банкового дня</value>
+	</data>
+	<data name="lblTotalItemDiscount">
+		<value>Товар з позицією в чеку {0} отримав знижку(и). Ціна {1}, сумарна знижка {2}, у підсумку {3}</value>
+	</data>
+	<data name="lblItemNewPriceDiscountDetails">
+		<value>Знижка {0} з новою ціною {1} для товару з позицією в чеку {2}</value>
+	</data>
+	<data name="lblItemSumDiscountDetails">
+		<value>Знижка {0} на суму {1} для товару з позицією в чеку {2}</value>
+	</data>
+</root>

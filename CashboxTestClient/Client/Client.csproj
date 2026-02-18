@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Translations\dictionary.en-GB.translations.xml" />
+    <None Remove="Resources\Translations\dictionary.ru-RU.translations.xml" />
+    <None Remove="Resources\Translations\dictionary.uk-UA.translations.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Translations\dictionary.en-GB.translations.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Translations\dictionary.ru-RU.translations.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Translations\dictionary.uk-UA.translations.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Prism.Core" Version="9.0.537" />
+    <PackageReference Include="Prism.Unity" Version="9.0.537" />
+    <PackageReference Include="Prism.Wpf" Version="9.0.537" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CashboxCommands">
+      <HintPath>E:\Repos\Utils\Tests\CashboxCommands\CashboxCommands\bin\Debug\net8.0\CashboxCommands.dll</HintPath>
+    </Reference>
+    <Reference Include="ExpertIp.TranslationsNet6">
+      <HintPath>..\..\CashboxCommands\CashboxCommands\bin\Debug\net8.0\ExpertIp.TranslationsNet6.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

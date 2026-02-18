@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HT6J2Z75zycwg+pJ5d1ucDyum4WmvfSFBa5neIVjE0iBxqAZp7eQbr7V3MfxYRHEhnxeU8rSQ0YFf3qV+6lUaA==",
+  "success": true,
+  "projectFilePath": "F:\\Tests\\CashboxTestServer\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

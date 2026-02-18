@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Client.Views.ServerConnectSettingsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:translations="clr-namespace:ExpertIp.Translations;assembly=ExpertIp.TranslationsNet6"
+        xmlns:local="clr-namespace:Client.Views"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+         >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding OnLoadedCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Margin="10" Grid.Row="0" Grid.Column="0" Content="Server Connect Settings" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        <Label Margin="10" Grid.Row="2" Grid.Column="0" Content="Enter your IP URL:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <Label Margin="10" Grid.Row="3" Grid.Column="0" Content="Enter your Port:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+        <TextBox Margin="10" VerticalContentAlignment="Center" FontSize="16" Grid.Row="2" Grid.Column="1" Width="200" Text="{Binding ServerIpAddress }"/>
+        <TextBox Margin="10" VerticalContentAlignment="Center" FontSize="16" Grid.Row="3" Grid.Column="1" Width="200" Text="{Binding ServerPort }" InputScope="Number"/>
+
+        <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="10" Grid.Column="0"   Content="{translations:Txt lblSave}" Width="100" Height="30" HorizontalAlignment="Center" Command="{Binding SaveSettingsCommand}"/>
+            <Button Margin="10"   Grid.Column="1"  Content="{translations:Txt lblBack}" Width="100" Height="30" HorizontalAlignment="Right" Command="{Binding CloseSettingsCommand}" IsEnabled="{Binding Enabled }"/> 
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,602 @@
+{
+  "ReceiptNumber": "10",
+  "OperatorID": "Operator5",
+  "OperatorName": "SSSSS",
+  "Id": "290d1e5b-c0e5-4bc8-bf7e-35c1658401a5",
+  "MessageName": "CancelReceipt",
+  "StationDateTime": "2026-01-21T13:02:39.1862027+02:00",
+  "ServerDateTime": "2026-01-21T13:02:39.4648212+02:00"
+},
+{
+  "ReceiptNumber": "123",
+  "OperatorID": "Operator9",
+  "OperatorName": "JJJJJ",
+  "Id": "7ba1481b-fa3b-40ac-827f-365d49d7a476",
+  "MessageName": "CashboxDepositionFinished",
+  "StationDateTime": "2026-01-21T13:02:40.323445+02:00",
+  "ServerDateTime": "2026-01-21T13:02:45.3430903+02:00"
+},
+{
+  "ReceiptNumber": "7",
+  "ProductName": "GGG",
+  "Description": "Description2",
+  "Price": 123.0,
+  "Quantity": "3",
+  "Barcode": "3333333333333",
+  "QuantityType": "Вещь",
+  "Amount": 300.0,
+  "OperatorID": "Operator4",
+  "OperatorName": "AAAAA",
+  "Id": "162dc0a2-85bc-4a27-9f69-9c48b23e067b",
+  "MessageName": "ItemAddedByList",
+  "StationDateTime": "2026-01-21T13:02:46.3565368+02:00",
+  "ServerDateTime": "2026-01-21T13:02:46.363254+02:00"
+},
+{
+  "CashPayed": "CashPayed",
+  "ReceiptNumber": "999",
+  "OperatorID": "123",
+  "OperatorName": "OLEG",
+  "Id": "a3da3899-efd0-411e-ae66-33b38f50ab69",
+  "MessageName": "MasterCashboxDeposition",
+  "StationDateTime": "2026-01-21T13:02:47.3709387+02:00",
+  "ServerDateTime": "2026-01-21T13:02:52.3787522+02:00"
+},
+{
+  "ReceiptNumber": "123",
+  "OperatorID": "Operator9",
+  "OperatorName": "JJJJJ",
+  "Id": "7ba1481b-fa3b-40ac-827f-365d49d7a476",
+  "MessageName": "CashboxDepositionFinished",
+  "StationDateTime": "2026-01-21T13:02:53.385617+02:00",
+  "ServerDateTime": "2026-01-21T13:02:53.3872449+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:50:12.0125538+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:19.81798+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:38.0985517+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:39.1006321+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:40.1027462+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:41.1166637+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:42.1313312+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:43.1418758+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:44.1508614+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:45.1621052+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:46.1635658+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:47.1798814+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:48.1844875+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:51.5177819+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:52.4883254+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:53.4939273+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:54.5091342+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:55.5174865+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:56.5199497+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:57.5309891+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:58.5436532+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:54:59.5537827+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:00.5703344+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:01.5742711+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:02.5840174+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:03.5883306+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:04.6021221+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:05.6168168+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:06.6277022+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:07.6360525+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:08.6473783+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:09.6657373+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:10.6745441+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:11.6869695+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:12.7016671+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:13.7035471+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:14.7141623+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:15.716799+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:16.7253127+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:17.7332131+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:18.7494564+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:19.7522789+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:20.770869+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:21.7837394+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:22.8020107+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:23.8136563+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:24.8221945+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:25.8471757+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:26.8590923+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:27.8646955+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:28.8716871+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:29.883077+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:30.8860117+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:31.8879077+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:32.8955615+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:33.9116616+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:34.9256696+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:35.9323912+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:36.946078+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:37.9552443+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:38.9585374+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:39.9637082+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:40.980301+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:41.9909607+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:43.0060097+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:44.0193259+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:45.0361139+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:46.0380022+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:47.0477321+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:48.0650286+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:49.0775056+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:50.0803515+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:51.0962032+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:52.1061885+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:53.1082506+02:00"
+},
+{
+  "Id": "101ac281-6f95-40ac-a3e7-b53ace4c0ac2",
+  "MessageName": "TerminalAbout",
+  "StationDateTime": "2026-01-21T13:25:51.43",
+  "ServerDateTime": "2026-01-21T13:55:54.1198865+02:00"
+},
+{
+  "ReceiptNumber": "123",
+  "OperatorID": "Operator17",
+  "OperatorName": "VVVVV",
+  "Id": "98e67068-910e-486b-92bc-4a463b3c4c2d",
+  "MessageName": "CashboxOpened",
+  "StationDateTime": "2026-01-21T17:02:21.3070568+02:00",
+  "ServerDateTime": "2026-01-21T17:02:24.2583997+02:00"
+},
+{
+  "Items": [
+    {
+      "PositionNumber": "ItemA",
+      "DiscountList": [
+        {
+          "DiscountId": "disc1",
+          "NameRule": "rule1",
+          "SumDiscount": 10.0
+        },
+        {
+          "DiscountId": "disc2",
+          "NameRule": "rule2",
+          "SumDiscount": 5.0
+        }
+      ],
+      "Price": 100.0,
+      "SumPosition": 90.0,
+      "SumDiscount": 10.0
+    },
+    {
+      "PositionNumber": "ItemB",
+      "DiscountList": [
+        {
+          "DiscountId": "disc3",
+          "NameRule": "rule3",
+          "SumDiscount": 20.0
+        }
+      ],
+      "Price": 200.0,
+      "SumPosition": 180.0,
+      "SumDiscount": 20.0
+    }
+  ],
+  "ReceiptNumber": "16",
+  "OperatorID": "Operator21",
+  "OperatorName": "QQQQQ",
+  "Id": "9f97d569-9f59-4fac-b8ff-4b9fc3dc830f",
+  "MessageName": "TotalItemsDiscount",
+  "StationDateTime": "2026-01-21T17:04:30.4925156+02:00",
+  "ServerDateTime": "2026-01-21T17:04:32.1585934+02:00"
+},
+{
+  "Items": [
+    {
+      "PositionNumber": "ItemA",
+      "DiscountList": [
+        {
+          "DiscountId": "disc1",
+          "NameRule": "rule1",
+          "SumDiscount": 10.0
+        },
+        {
+          "DiscountId": "disc2",
+          "NameRule": "rule2",
+          "SumDiscount": 5.0
+        }
+      ],
+      "Price": 100.0,
+      "SumPosition": 90.23,
+      "SumDiscount": 10.0
+    },
+    {
+      "PositionNumber": "ItemB",
+      "DiscountList": [
+        {
+          "DiscountId": "disc3",
+          "NameRule": "rule3",
+          "SumDiscount": 20.0
+        }
+      ],
+      "Price": 200.0,
+      "SumPosition": 180.34,
+      "SumDiscount": 20.0
+    }
+  ],
+  "ReceiptNumber": "16",
+  "OperatorID": "Operator21",
+  "OperatorName": "QQQQQ",
+  "Id": "214193d7-d50c-48df-9368-15d2853682f4",
+  "MessageName": "TotalItemsDiscount",
+  "StationDateTime": "2026-01-21T17:17:28.3693954+02:00",
+  "ServerDateTime": "2026-01-21T17:17:34.2974329+02:00"
+},

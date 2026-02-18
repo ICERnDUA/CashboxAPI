@@ -1,0 +1,30 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<data name="lblSettings">
+		<value>Налаштування</value>
+	</data>
+	<data name="lblStart">
+		<value>Старт</value>
+	</data>
+	<data name="lblStop">
+		<value>Стоп</value>
+	</data>
+	<data name="lblBack">
+		<value>Назад</value>
+	</data>
+	<data name="lblSave">
+		<value>Зберегти</value>
+	</data>
+	<data name="lblHeader">
+		<value>Cashbox live test</value>
+	</data>
+	<data name="lblConnectionSettings">
+		<value>Налаштування підключення</value>
+	</data>
+	<data name="lblPort">
+		<value>Порт</value>
+	</data>
+	<data name="lblIp">
+		<value>IP адреса</value>
+	</data>
+</root>

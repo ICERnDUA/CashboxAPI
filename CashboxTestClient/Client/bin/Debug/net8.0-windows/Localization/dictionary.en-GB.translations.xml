@@ -1,0 +1,564 @@
+﻿<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data name="lblSessionStarted">
+		<value>Shift started by {0}</value>
+	</data>
+	<data name="lblSessionEnded">
+		<value>Shift ended by {0}</value>
+	</data>
+	<data name="lblSessionRestored">
+		<value>Shift restored by {0}</value>
+	</data>
+	<data name="lblSessionOvertime">
+		<value>Shift overtime by {0}</value>
+	</data>
+	<data name="lblCashierAuthStarted">
+		<value>Cashier authentication started</value>
+	</data>
+	<data name="lblCashierAuthDenied">
+		<value>Cashier authentication denied</value>
+	</data>
+	<data name="lblCashierLoggedIn">
+		<value>Cashier {0} logged in</value>
+	</data>
+	<data name="lblCashierLoggedOut">
+		<value>Cashier {0} logged out</value>
+	</data>
+	<data name="lblAdminAuthStarted">
+		<value>Admin authentication started</value>
+	</data>
+	<data name="lblAdminAuthDenied">
+		<value>Admin authentication denied</value>
+	</data>
+	<data name="lblAdminLoggedIn">
+		<value>Admin {0} logged in</value>
+	</data>
+	<data name="lblAdminLoggedOut">
+		<value>Admin {0} logged out</value>
+	</data>
+	<data name="lblMasterAuthStarted">
+		<value>Master authentication started</value>
+	</data>
+	<data name="lblMasterAuthDenied">
+		<value>Master authentication denied</value>
+	</data>
+	<data name="lblMasterLoggedIn">
+		<value>Master {0} logged in</value>
+	</data>
+	<data name="lblMasterLoggedOut">
+		<value>Master {0} logged out</value>
+	</data>
+	<data name="lblOpenReceipt">
+		<value>Receipt {0} is opened</value>
+	</data>
+	<data name="lblCloseReceipt">
+		<value>Receipt {0} is closed</value>
+	</data>
+	<data name="lblOpenReturnReceipt">
+		<value>Return receipt {0} is opened</value>
+	</data>
+	<data name="lblCloseReturnReceipt">
+		<value>Return receipt {0} is closed</value>
+	</data>
+	<data name="lblVoidReceipt">
+		<value>Annulation receipt {0}</value>
+	</data>
+	<data name="lblOpenExchangeReceipt">
+		<value>Exchange receipt {0} is opened</value>
+	</data>
+	<data name="lblCloseExchangeReceipt">
+		<value>Exchange receipt {0} is closed</value>
+	</data>
+	<data name="lblOpenPaymentReceipt">
+		<value>Payment receipt {0} is opened</value>
+	</data>
+	<data name="lblClosePaymentReceipt">
+		<value>Payment receipt {0} is closed</value>
+	</data>
+	<data name="lblRepaymentReceipt">
+		<value>Repayment receipt {0}</value>
+	</data>
+	<data name="lblReceiptClose">
+		<value>Closing receipt {0}</value>
+	</data>
+	<data name="lblStartCancelReceipt">
+		<value>Start cancel receipt {0}</value>
+	</data>
+	<data name="lblCancelReceiptDenied">
+		<value>Cancel receipt {0} denied</value>
+	</data>
+	<data name="lblCancelReceipt">
+		<value>Receipt {0} is canceled</value>
+	</data>
+	<data name="lblDelayedReceipt">
+		<value>Delayed receipt {0}</value>
+	</data>
+	<data name="lblDelayedReceiptRequest">
+		<value>Request of delayed receipt {0}</value>
+	</data>
+	<data name="lblReceiptRestore">
+		<value>Receipt {0} restored</value>
+	</data>
+	<data name="lblSoftReceipt">
+		<value>Receipt {0} is copied</value>
+	</data>
+	<data name="lblMobileReceipt">
+		<value>Mobile receipt {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCash">
+		<value>Receipt cash sum calculation: {0}</value>
+	</data>
+	<data name="lblReceiptSummaryCashless">
+		<value>Receipt cashless sum calculation: {0}</value>
+	</data>
+	<data name="lblStartReceiptSummarySlip">
+		<value>Starting receipt summing by slip</value>
+	</data>
+	<data name="lblReceiptSummarySlipDenied">
+		<value>Receipt summing by slip denied</value>
+	</data>
+	<data name="lblReceiptSummarySlip">
+		<value>Receipt sum by slip: {0}</value>
+	</data>
+	<data name="lblReceiptSummary">
+		<value>Receipt sum: {0}</value>
+	</data>
+	<data name="lblUnknownReceiptSummary">
+		<value>Unknown receipt {0} sum</value>
+	</data>
+	<data name="lblNullReceiptSummary">
+		<value>Null receipt {0}</value>
+	</data>
+	<data name="lblReceiptChange">
+		<value>Receipt change: {0}</value>
+	</data>
+	<data name="lblReceiptPromoDiscount">
+		<value>Applying promo discount to receipt</value>
+	</data>
+	<data name="lblReceiptRoundingDiscount">
+		<value>Applying rounding discount to receipt</value>
+	</data>
+	<data name="lblReceiptLoyaltyDiscount">
+		<value>Applying loyalty discount to receipt</value>
+	</data>
+	<data name="lblReceiptDiscount">
+		<value>Applying receipt discount</value>
+	</data>
+	<data name="lblReceiptCancelDiscount">
+		<value>Canceling receipt discount</value>
+	</data>
+	<data name="lblItemAdded">
+		<value>Item added **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByArticle">
+		<value>Item added by article **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByBarcode">
+		<value>Item added by barcode **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByScanner">
+		<value>Item added by scanner **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByList">
+		<value>Item added from list **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemAddedByPrice">
+		<value>Item added by price **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemNotFoundByArticle">
+		<value>Item was not found by article {0} in receipt {1}</value>
+	</data>
+	<data name="lblItemNotFoundByBarcode">
+		<value>Item was not found by barcode {0} in receipt {1}</value>
+	</data>
+	<data name="lblItemNotFoundByPrice">
+		<value>Item was not found by price {0} in receipt {1}</value>
+	</data>
+	<data name="lblReceiptlessItemScanned">
+		<value>Receiptless item added **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblForbiddenItemAdded">
+		<value>Forbidden item added **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblPresentAdded">
+		<value>Present {0} added</value>
+	</data>
+	<data name="lblItemQuantityAddedManually">
+		<value>Item quantity added manually **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemChanged">
+		<value>Item changed **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemQuantityReduce">
+		<value>Starting item quantity reduce **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduceDenied">
+		<value>Item quantity reduce denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityReduce">
+		<value>Item quantity reduced **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemQuantityIncrease">
+		<value>Starting item quantity increase **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncreaseDenied">
+		<value>Item quantity increase denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemQuantityIncrease">
+		<value>Item quantity increased **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceReduce">
+		<value>Starting item price reduce **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduceDenied">
+		<value>Item price reduce denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceReduced">
+		<value>Item price reduced **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemPriceIncrease">
+		<value>Starting item price increase **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreaseDenied">
+		<value>Item price increase denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemPriceIncreased">
+		<value>Item price reduced increased **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemCancel">
+		<value>Starting item cancel **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCancelDenied">
+		<value>Item cancel denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemCanceled">
+		<value>Item canceled **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemRemove">
+		<value>Starting item remove **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemoveDenied">
+		<value>Item remove denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemRemove">
+		<value>Item removed **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblStartItemDiscount">
+		<value>Starting item discount set **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemDiscountDenied">
+		<value>Item discount denied **{0} **{1} / {2} **{3} {2} **{4}</value>
+	</data>
+	<data name="lblItemDiscount">
+		<value>Item discount selected **{0} **{1} / {2} **{3} {2} **{4} **Discount {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountSet">
+		<value>Item discount set **{0} **{1} / {2} **{3} {2} **{4} **Discount {5}: {6} </value>
+	</data>
+	<data name="lblItemDiscountCanceled">
+		<value>Item discount canceled **{0} **{1} / {2} **{3} {2} **{4} **Discount {5}: {6} </value>
+	</data>
+	<data name="lblCreditCardPayment">
+		<value>Credit card payment as {0}</value>
+	</data>
+	<data name="lblCreditCardPaymentFailed">
+		<value>Credit card payment as {0} denied because of {1}</value>
+	</data>
+	<data name="lblInsiderCardPayment">
+		<value>Insider card payment as {0}</value>
+	</data>
+	<data name="lblInsiderCardPaymentFailed">
+		<value>Insider card payment as {0} denied because of {1}</value>
+	</data>
+	<data name="lblDiscountCardPayment">
+		<value>Discount card payment as {0}</value>
+	</data>
+	<data name="lblDiscountCardPaymentFailed">
+		<value>Discount card payment as {0} denied because of {1}</value>
+	</data>
+	<data name="lblDiscountCardNotFound">
+		<value>Discount card is not found</value>
+	</data>
+	<data name="lblCouponPayment">
+		<value>Coupon payment as {0}</value>
+	</data>
+	<data name="lblCouponPaymentDenied">
+		<value>Coupon payment as {0} denied because of {1}</value>
+	</data>
+	<data name="lblDocumentPayment">
+		<value>Document payment as {0}</value>
+	</data>
+	<data name="lblStartBonusCardPayment">
+		<value>Start bonus card payment as {0}</value>
+	</data>
+	<data name="lblBonusCardPaymentDenied">
+		<value>Bonus card payment as {0} denied because of {1}</value>
+	</data>
+	<data name="lblBonusCardPayment">
+		<value>Bonus card payment as {0} successful</value>
+	</data>
+	<data name="lblCertificatePayment">
+		<value>Certificate payment as {0}</value>
+	</data>
+	<data name="lblCashPayment">
+		<value>Cash payment as {0}. Change is {1}</value>
+	</data>
+	<data name="lblCashlessPayment">
+		<value>Cashless payment as {0}</value>
+	</data>
+	<data name="lblPaymentCanceled">
+		<value>Payment canceled because of {0}</value>
+	</data>
+	<data name="lblCardWaiting">
+		<value>Waiting for a card</value>
+	</data>
+	<data name="lblCardNumber">
+		<value>Received card number</value>
+	</data>
+	<data name="lblStartPrintMode">
+		<value>Starting receipt print mode</value>
+	</data>
+	<data name="lblExitPrintMode">
+		<value>Exiting receipt print mode</value>
+	</data>
+	<data name="lblStartCashMemoPrintMode">
+		<value>Starting cash memory print mode</value>
+	</data>
+	<data name="lblExitCashMemoPrintMode">
+		<value>Exiting cash memory print mode</value>
+	</data>
+	<data name="lblStartSaleMode">
+		<value>Starting "Sales" mode</value>
+	</data>
+	<data name="lblExitSaleMode">
+		<value>Exiting "Sales" mode</value>
+	</data>
+	<data name="lblStartReturnMode">
+		<value>Starting "Return" mode</value>
+	</data>
+	<data name="lblExitReturnMode">
+		<value>Exiting "Return" mode</value>
+	</data>
+	<data name="lblStartServicePaymentMode">
+		<value>Starting "Service payment" mode</value>
+	</data>
+	<data name="lblExitServicePaymentMode">
+		<value>Exiting "Service payment" mode</value>
+	</data>
+	<data name="lblStartCalculatorMode">
+		<value>Starting "Calculator" mode</value>
+	</data>
+	<data name="lblExitCalculatorMode">
+		<value>Exiting "Calculator" mode</value>
+	</data>
+	<data name="lblStartItemInfoMode">
+		<value>Starting "Item information" mode</value>
+	</data>
+	<data name="lblExitItemInfoMode">
+		<value>Exiting "Item information" mode</value>
+	</data>
+	<data name="lblReceiptPrint">
+		<value>Printing receipt {0}</value>
+	</data>
+	<data name="lblReceiptPrintCashMemo">
+		<value>Printing receipt from cash memory {0}</value>
+	</data>
+	<data name="lblReceiptPrintCopy">
+		<value>Printing receipt copy {0}</value>
+	</data>
+	<data name="lblAdminReceiptPrintCopy">
+		<value>Printing receipt copy as admin {0}</value>
+	</data>
+	<data name="lblPrintSlip">
+		<value>Printing receipt from slip {0}</value>
+	</data>
+	<data name="lblPrintSlipCopy">
+		<value>Printing receipt copy from slip {0}</value>
+	</data>
+	<data name="lblCashboxOpened">
+		<value>Cashbox is opened</value>
+	</data>
+	<data name="lblCashboxOpenedForced">
+		<value>Cashbox is opened without receipt</value>
+	</data>
+	<data name="lblCashboxDeposition">
+		<value>Cashbox deposition {0}</value>
+	</data>
+	<data name="lblCashboxDepositionFinished">
+		<value>Cashbox deposition finished</value>
+	</data>
+	<data name="lblCashboxWithdrawal">
+		<value>Cashbox withdrawal {0}</value>
+	</data>
+	<data name="lblCashboxWithdrawalFinished">
+		<value>Cashbox withdrawal finished</value>
+	</data>
+	<data name="lblMasterCashboxOpened">
+		<value>Cashbox is opened from "Master" mode</value>
+	</data>
+	<data name="lblMasterCashboxDeposition">
+		<value>Cashbox deposition {0} from "Master" mode</value>
+	</data>
+	<data name="lblMasterCashboxDepositionFinished">
+		<value>Cashbox deposition finished from "Master" mode</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawal">
+		<value>Cashbox withdrawal {0} from "Master" mode</value>
+	</data>
+	<data name="lblMasterCashboxWithdrawalFinished">
+		<value>Cashbox withdrawal finished from "Master" mode</value>
+	</data>
+	<data name="lblCashboxDeclaration">
+		<value>Cashbox declaration</value>
+	</data>
+	<data name="lblBonusCardBalanceRequest">
+		<value>Bonus card balance request. Total {0}</value>
+	</data>
+	<data name="lblBonusCardActivated">
+		<value>Bonus card is activated</value>
+	</data>
+	<data name="lblBonusCardDeposit">
+		<value>Deposition of {0} bonuses to bonus card. Total {1}</value>
+	</data>
+	<data name="lblBonusCardBonusesAdded">
+		<value>Bonuses added {0} to bonus card. Total {1}</value>
+	</data>
+	<data name="lblBonusCardTerminated">
+		<value>Bonus card terminated</value>
+	</data>
+	<data name="lblBonusCardDetailedBalance">
+		<value>Bonus card detailed balance: {0}</value>
+	</data>
+	<data name="lblCertificateSell">
+		<value>Selling {0} certificate</value>
+	</data>
+	<data name="lblCertificateUsed">
+		<value>Certificate {0} used</value>
+	</data>
+	<data name="lblCertificateTerminated">
+		<value>Certificate {0} terminated</value>
+	</data>
+	<data name="lblTerminalStarted">
+		<value>Start</value>
+	</data>
+	<data name="lblTerminalShutdown">
+		<value>Shutdown</value>
+	</data>
+	<data name="lblTerminalRestart">
+		<value>Restart</value>
+	</data>
+	<data name="lblTerminalFMDCreate">
+		<value>Create FMD</value>
+	</data>
+	<data name="lblTerminalFMDWrite">
+		<value>Write FMD</value>
+	</data>
+	<data name="lblTerminalFMDView">
+		<value>View FMD</value>
+	</data>
+	<data name="lblTerminalFMDPrint">
+		<value>Print FMD</value>
+	</data>
+	<data name="lblTerminalViewSettings">
+		<value>View settings</value>
+	</data>
+	<data name="lblTerminalViewSales">
+		<value>View sales</value>
+	</data>
+	<data name="lblTerminalKeepAlive">
+		<value>Keep alive</value>
+	</data>
+	<data name="lblTerminalResetDb">
+		<value>Reset database</value>
+	</data>
+	<data name="lblTerminalAbout">
+		<value>About system</value>
+	</data>
+	<data name="lblPrintDailyReport">
+		<value>Print daily report</value>
+	</data>
+	<data name="lblPrintReportBySections">
+		<value>Print report by sections</value>
+	</data>
+	<data name="lblPrintXReport">
+		<value>Print X report</value>
+	</data>
+	<data name="lblPrintZReport">
+		<value>Print Z report</value>
+	</data>
+	<data name="lblPrintZReportCopy">
+		<value>Print Z report copy</value>
+	</data>
+	<data name="lblPrintFRReport">
+		<value>Print fiscal report</value>
+	</data>
+	<data name="lblPrintReportByCashiers">
+		<value>Print report by cashiers</value>
+	</data>
+	<data name="lblPrintReportByItems">
+		<value>Print report by items</value>
+	</data>
+	<data name="lblPrintReportByTime">
+		<value>Print report by time</value>
+	</data>
+	<data name="lblPrintReportByHours">
+		<value>Print report by hours</value>
+	</data>
+	<data name="lblPrintReportByCashless">
+		<value>Print report by cashless</value>
+	</data>
+	<data name="lblPrintReportByGrowingResults">
+		<value>Print report by growing results</value>
+	</data>
+	<data name="lblPrintReportByBankOperations">
+		<value>Print report by bank operations</value>
+	</data>
+	<data name="lblPrintReportByShifts">
+		<value>Print report by shifts</value>
+	</data>
+	<data name="lblPrintWriteOffActs">
+		<value>Print write off acts</value>
+	</data>
+	<data name="lblComment">
+		<value>Comment</value>
+	</data>
+	<data name="lblCashierActivity">
+		<value>Cashier activity</value>
+	</data>
+	<data name="lblSctiptError">
+		<value>Scipt error</value>
+	</data>
+	<data name="lblError">
+		<value>Error</value>
+	</data>
+	<data name="lblPrintError">
+		<value>Print error</value>
+	</data>
+	<data name="lblTransactionError">
+		<value>Transaction error</value>
+	</data>
+	<data name="lblNaNError">
+		<value>Not a number error</value>
+	</data>
+	<data name="lblOverflowError">
+		<value>Overflow error</value>
+	</data>
+	<data name="lblCheckBankResults">
+		<value>Checking bank results</value>
+	</data>
+	<data name="lblCheckBankFinalResults">
+		<value>Checking bank final results</value>
+	</data>
+	<data name="lblCloseBankDay">
+		<value>Closing bank day</value>
+	</data>
+	<data name="lblTotalItemDiscount">
+		<value>Item with receipt position {0} received discount(s). Price is {1}, total discount is {2}, total is {3}</value>
+	</data>
+	<data name="lblItemNewPriceDiscountDetails">
+		<value>Discount rule {0} with new price {1} for item with receipt position {2}</value>
+	</data>
+	<data name="lblItemSumDiscountDetails">
+		<value>Discount rule {0} on the amount {1} for item with receipt position {2}</value>
+	</data>
+</root>
+

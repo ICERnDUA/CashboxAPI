@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CashboxCommands">
+      <HintPath>E:\Repos\Utils\Tests\CashboxCommands\CashboxCommands\bin\Debug\net8.0\CashboxCommands.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
